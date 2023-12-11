@@ -1,0 +1,85 @@
+
+.loginLine {
+    color: #000000;
+    font-weight: 300;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.logoRaw{
+    margin-top: 4%;
+    width: 7%;  /* 30rem */
+}
+
+
+.logo{
+    width: 3%;
+    height: 2%;
+    /* margin-left: 0px;
+    margin-right: auto; */
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-right: 45%;
+}
+
+.signUp{
+    text-decoration: none;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.input{
+    margin-bottom: 1.2rem;
+}
+
+.input:hover{
+    margin-bottom: 1.2rem;
+}
+
+.loginForm{
+    margin: 0% auto 0;
+    width: 30%;
+}
+
+.submit{
+    margin: 3rem auto 0;
+    background-color: #ffffff;
+    border-radius: 6px;
+    width: 10rem;
+    height: 3rem;
+    text-transform:capitalize;
+    font-size: large;
+    font-weight: bold;
+}
+
+.submit:hover{
+    background-color: #ffffff;
+}
+
+.loginStatus{
+    margin: 0;
+    color: #dd3737;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+
+.containerlog {
+    z-index: 0;
+    text-align: right;
+    color: var(--color);
+    width: 190vh;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    /* background-image: url('../../assets/bglogin.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    -ms-filter: blur(10px);
+  filter: blur(0px);
+  }

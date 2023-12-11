@@ -1,0 +1,50 @@
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-section,
+.right-section {
+  text-align: center;
+}
+
+.left-section {
+  margin-right: 20px;
+}
+
+.input-image-preview,
+.output-image-preview {
+  width: 100%;
+  max-width: 400px; /* Adjust the size as needed */
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+.restoration-header {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+}

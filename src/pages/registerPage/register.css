@@ -1,0 +1,83 @@
+
+.loginLine {
+    color: #5B3203;
+    font-weight: 300;
+}
+
+.signIn{
+    text-decoration: none;
+    font-weight: 900;
+    color: #5B3203;
+}
+
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form{
+    width: 40%;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.page{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.input, .input:hover, .input:active{
+    margin-bottom: 1rem;
+}
+
+.submit{
+    margin: 2rem auto 0;
+    background-color: #863812;
+    border-radius: 6px;
+    width: 40%;
+    height: 3rem;
+    text-transform:capitalize;
+    font-size: large;
+    font-weight: bold;
+}
+
+.button{
+    width: 50%;
+    text-align: center;
+    margin: 2rem auto 0;
+}
+
+.submit:hover{
+    background-color: #5B3203;
+}
+
+.registerStatus{
+    margin: 0;
+    color: #dd3737;
+    margin-top: -2rem;
+    font-weight: 300;
+}
+
+
+.containerRegister {
+    z-index: 0;
+    text-align: right;
+    color: var(--color);
+    width: 190vh;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    /* background-image: url('../../assets/bglogin.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    -ms-filter: blur(10px);
+  filter: blur(0px);
+  }

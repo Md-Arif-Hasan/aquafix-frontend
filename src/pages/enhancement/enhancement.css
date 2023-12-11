@@ -1,0 +1,59 @@
+/* enhancement.css */
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+.left-section,
+.right-section {
+  text-align: center;
+}
+
+.left-section {
+  margin-right: 20px;
+}
+
+
+.dashboard-image {
+  width: 100%;
+  height: auto;
+}
+
+.right-section {
+  width: 60%;
+}
+
+.generated-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.generated-images img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+.download-button {
+  margin-top: 10px; /* Adjust the top margin as needed */
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #45a049;
+}
