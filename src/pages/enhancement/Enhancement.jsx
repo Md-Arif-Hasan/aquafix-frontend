@@ -12,9 +12,8 @@ export default function Dashboard() {
   const [userImage, setUserImage] = useState(null);
   const [processedImage, setProcessedImage] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [contrastImprovement, setContrastImprovement] = useState(null);
-  const [sharpnessImprovement, setSharpnessImprovement] = useState(null);
-  const [snrImprovement, setSNRImprovement] = useState(null);
+  const [MSE, setMSE] = useState(null);
+  const [PSNR, setPSNR] = useState(null);
 
   const { checkLoggedIn } = useContext(AuthContext);
 
@@ -58,9 +57,8 @@ export default function Dashboard() {
         }
           const result = await response.json();
   
-        setContrastImprovement(result.contrast_improvement);
-        setSharpnessImprovement(result.sharpness_improvement);
-        setSNRImprovement(result.snr_improvement);
+        setMSE(result.MSE);
+        setPSNR(result.PSNR);
        
         console.log(result);
         setProcessedImage(`http://localhost:5000/uploads/${result.processed_image_path}`);
@@ -134,8 +132,8 @@ export default function Dashboard() {
                   }}
                 />
                 <div className="improvement-values">
-                  <p>Contrast Improvement: {contrastImprovement}%</p>
-                  <p>Sharpness Improvement: {sharpnessImprovement}%</p>
+                  <p> MSE : {MSE}</p>
+                  <p>PSNR : {PSNR}</p>
                   {/* <p>SNR Improvement: {snrImprovement}%</p> */}
                 </div>
                 <button onClick={handleDownload} className="download-button">
